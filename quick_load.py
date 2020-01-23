@@ -16,6 +16,3 @@ for dirname, _, filenames in os.walk('F:/天池/数字中国2020/hy_round1_testA
 total = pd.read_feather('F:/天池/数字中国2020/train.feather')
 print(total)
 
-
-
-from sklearn.cluster import KMeans
